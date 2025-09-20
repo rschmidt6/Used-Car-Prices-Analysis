@@ -43,7 +43,10 @@ This analysis tests conventional wisdom about car value retention using 50,000 r
 
 ### Brand Value Retention
 
-[Chart: Price vs Age by Manufacturer]
+
+
+<img src="https://github.com/rschmidt6/Used-Car-Prices-Analysis/blob/main/charts/manu_prices.png" alt="manufacturer prices" width="80%"/>
+<img src="https://github.com/rschmidt6/Used-Car-Prices-Analysis/blob/main/charts/manu_depr.png" alt="manufacturer depr" width="80%"/>
 
 **Percentage Depreciation (0-35+ years):**
 - BMW: 73% total depreciation
@@ -56,7 +59,8 @@ This analysis tests conventional wisdom about car value retention using 50,000 r
 
 ### Fuel Type Performance
 
-[Chart: Fuel Type Depreciation Patterns]
+<img src="https://github.com/rschmidt6/Used-Car-Prices-Analysis/blob/main/charts/fuel_prices.png" alt="fuel prices" width="80%"/>
+<img src="https://github.com/rschmidt6/Used-Car-Prices-Analysis/blob/main/charts/fuel_depr.png" alt="fuel depr" width="80%"/>
 
 **Insights:**
 - **Hybrids** maintain value best initially (35.5% first-period depreciation) but face steeper declines after 15 years
@@ -65,7 +69,8 @@ This analysis tests conventional wisdom about car value retention using 50,000 r
 
 ### Engine Size Impact
 
-[Chart: Engine Size vs Depreciation]
+<img src="https://github.com/rschmidt6/Used-Car-Prices-Analysis/blob/main/charts/engine_prices.png" alt="engine prices" width="80%"/>
+<img src="https://github.com/rschmidt6/Used-Car-Prices-Analysis/blob/main/charts/engine_depr.png" alt="engine depr" width="80%"/>
 
 **Findings:**
 - Small engines (1.0-1.4L) consistently outperform larger engines in value retention
