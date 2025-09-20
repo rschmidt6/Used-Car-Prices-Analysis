@@ -30,8 +30,9 @@ This analysis tests conventional wisdom about car value retention using 50,000 r
 ## Methodology
 
 **Data Cleaning:**
-- Removed vehicles priced under $500 (likely salvage/data errors)
+- Removed outlier vehicles priced under $500 (likely salvage/some kind of data error)
 - Filtered out vehicles with >300,000 miles (fleet vehicle outliers)
+  - These two filters removed about 300 rows
 - Added calculated fields: Car Age (2023 - Manufacturing Year)
 
 **Analysis Approach:**
@@ -43,12 +44,10 @@ This analysis tests conventional wisdom about car value retention using 50,000 r
 
 ### Brand Value Retention
 
-
-
 <img src="https://github.com/rschmidt6/Used-Car-Prices-Analysis/blob/main/charts/manu_prices.png" alt="manufacturer prices" width="80%"/>
 <img src="https://github.com/rschmidt6/Used-Car-Prices-Analysis/blob/main/charts/manu_depr.png" alt="manufacturer depr" width="80%"/>
 
-**Percentage Depreciation (0-35+ years):**
+**Total Percentage Depreciation (0-35+ years):**
 - BMW: 73% total depreciation
 - Porsche: 70% total depreciation  
 - Toyota: 68% total depreciation
@@ -80,18 +79,18 @@ This analysis tests conventional wisdom about car value retention using 50,000 r
 ## Business Recommendations
 
 ### For Consumers
-- **Best Value Window:** Purchase 5-9 year old vehicles for optimal price/depreciation balance
-- **Avoid 10-15 Year Range:** Peak depreciation period due to warranty expiration and major maintenance needs
-- **Efficiency Strategy:** Choose hybrids under 10 years, small engines for long-term ownership
+- **Buy In Best Value Window:** Purchase 5-9 year old vehicles for best price/depreciation balance
+- **Avoid buying 10-15 Year Range:** High depreciation period, likely due to warranty expiration and major maintenance needs
+- **Efficiency Strategy:** Choose hybrids under 10 years, likely even newer, and small engines for long-term ownership
 
 ### For Dealers
-- **Inventory Focus:** Avoid 10-15 year old luxury vehicles due to peak depreciation
-- **Pricing Strategy:** Premium brands command higher margins but face steeper percentage losses
-- **Fleet Recommendations:** Diesel vehicles offer predictable depreciation for fleet planning
+- **Inventory Management:** Avoid buying 10-15 year old luxury vehicles due to peak depreciation
+- **Pricing Strategy:** Luxury brands may have high margins but face steeper percentage losses (though absolute value depreciation also highest)
+- **Fleet Useage:** Diesel vehicles offer predictable depreciation for fleet use
 
-### For Fleet Managers
-- **Replacement Timing:** Sell vehicles before 10-year mark to avoid depreciation cliff
-- **Vehicle Selection:** Small-engine, mass-market brands optimize total cost of ownership
+### For Fleet Use
+- **Replacement Timing:** Sell vehicles before 10 year mark to avoid depreciation hike
+- **Vehicle Selection:** Smaller engine, mass-market brands optimize value
 - **Technology Considerations:** Hybrid benefits diminish after 15 years due to maintenance complexity
 
 ## Technical Implementation
