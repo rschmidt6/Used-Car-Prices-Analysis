@@ -113,23 +113,6 @@ Depreciation Rate = (Previous Price - Current Price) / Previous Price × 100
 - Sample sizes vary across fuel types and engine categories
 - Analysis assumes 2023 baseline for age calculations
 
-## Repository Structure
-
-```
-car-depreciation-analysis/
-├── README.md
-├── data/
-│   └── car_sales_data.csv
-├── analysis/
-│   └── google-sheets-analysis.md
-├── charts/
-│   ├── brand-depreciation.png
-│   ├── fuel-type-analysis.png
-│   └── engine-size-patterns.png
-└── insights/
-    └── business-recommendations.md
-```
-
 ## About This Analysis
 
 This project demonstrates end-to-end data analysis skills including data cleaning, statistical analysis, and business insight generation. The analysis challenges common assumptions about vehicle value retention and provides actionable recommendations for multiple stakeholder groups.
